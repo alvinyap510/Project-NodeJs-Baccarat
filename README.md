@@ -18,4 +18,4 @@ node src/baccarat.js
 
 ## Notes
 
-- The Deck class has some more advanced functions such as hashing the deck state, and reverse verifying the authenticity the game sequence by providing the sequence and salt.
+- The Deck class has some advanced functions such as hashing the deck state before game dealing, and reverse verifying the authenticity the game sequence with the provided sequence and salt. Can be further expanded to be something on-chain for verification etc.
