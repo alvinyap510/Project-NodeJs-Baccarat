@@ -13,5 +13,5 @@ Thought of would just share the original version of it here.
 Git clone the repo and run the following commands:
 
 ```shell
-node baccarat.js
+node src/baccarat.js
 ```
