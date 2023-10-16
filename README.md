@@ -15,3 +15,7 @@ Git clone the repo and run the following commands:
 ```shell
 node src/baccarat.js
 ```
+
+## Notes
+
+- The Deck class has some more advanced functions such as hashing the deck state, and reverse verifying the authenticity the game sequence by providing the sequence and salt.
