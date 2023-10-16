@@ -39,7 +39,8 @@ class Deck {
 
   /*** Shuffle deck using Fisher-Yates Algorithm ***/
   /* Math.ramdom() is pseudoramdom */
-  /* Depends of browser, it will use different seed to generate the randomness */
+  /* Depending on different browser's runtime, it will use different
+  seed / innitialization vectors to generate the seed for Math.random() randomness */
   shuffle() {
     for (let i = this.deckSequence.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
